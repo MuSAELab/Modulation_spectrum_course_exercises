@@ -14,10 +14,10 @@ import matplotlib.pyplot as plt
 if __name__ == "__main__": 
     
     """ Step 1: import preprocessed SRMR data """
-    covid_fea = msr_func.load_saved_fea('./preprocessed/srmr_dicova_speech') # preprocessed features
+    covid_fea = msr_func.load_saved_fea('./preprocessed/covid_srmr') # preprocessed features
     covid_fea = covid_fea.iloc[:,1:].to_numpy() # dataframe to numpy
     covid_fea = 10*np.log10(covid_fea) # raw energy to dB
-    covid_lab = msr_func.load_saved_lab('./preprocessed/dicova_lab') # labels: COVID-postive/COVID-negative
+    covid_lab = msr_func.load_saved_lab('./preprocessed/covid_lab') # labels: COVID-postive/COVID-negative
     
     
     """ Step 2: calculate F-ratio between COVID and non-COVID samples """
