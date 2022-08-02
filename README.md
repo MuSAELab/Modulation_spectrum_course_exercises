@@ -8,3 +8,6 @@ You can find dependencies and detailed instructions about each exercise in ```In
 A detailed technical note on the background of modulation spectrogram and its applications can be found at https://github.com/MuSAELab/modulation-spectrogram-technical-note. <br />
 More details about the SRMR toolbox can be found here: https://github.com/jfsantos/SRMRpy. <br />
 Other versions of modulation spectrogram can be found at https://github.com/MuSAELab/amplitude-modulation-analysis-module and https://github.com/MuSAELab/modulation_filterbanks.
+
+## Author
+This repo is created by Yi Zhu in 2022.
