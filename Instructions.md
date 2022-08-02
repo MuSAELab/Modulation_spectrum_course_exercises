@@ -5,7 +5,7 @@ This exercise is set up for people who are new to modulation spectrum to get som
 
 ## Dependencies
 -Programming language: Our current version only supports **Python** 3. <br />
--Packages: The SRMR toolbox is used to compute modulation spectrogram, which can be found at .
+-Packages: The SRMR toolbox is used to compute modulation spectrogram, which can be found at [https://github.com/jfsantos/SRMRpy].
 
 ## About exercises
 To help participants better understand the use of modulation spectrogram, we designed two exercises. For simplicity and reproducibility, we include customized functions in the ```msr_func.py``` and ```msr_ml.py```. We will be using these customized functions for our exercises. For future usage, you can also modify these functions for your own tasks.
