@@ -2,7 +2,7 @@
 This repo shows how to extract modulation spectrogram using the SRMR toolbox, some visualizations, and how to use the modulation spectrogram for speech based machine learning tasks. The SRMR toolbox is designed specifically for speech-related tasks, our team have developed other versions of modulation spectrogram tailored for other signals (e.g., ECG, EEG, accelerometer data, etc.). You can refer to the Github website of our lab for more info (https://github.com/MuSAELab).
 
 ## Prior to the workshop
-You can find dependencies in ```Instructions.md```. Please have these tools/packages installed before the workshop in order to run the excercise scripts.
+You can find dependencies and detailed instructions about each exercise in ```Instructions.md```. Please have these tools/packages installed before the workshop in order to run the exercise scripts.
 
 ## Useful links
 A detailed technical note on the background of modulation spectrogram and its applications can be found at https://github.com/MuSAELab/modulation-spectrogram-technical-note. <br />
