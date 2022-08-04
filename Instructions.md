@@ -29,7 +29,7 @@ Since the extracted modulation spectrogram is 3-dimensional (3D), we average it 
 In the second exercise, we will see how to use the extracted modulation spectrogram for COVID-19 detection. In this example, we will use the modulation spectrogram features that had been extracted beforehand. The features and labels are saved in the ```preprocessed``` folder as ```.pkl``` files.
 
 #### Step 1: load saved files
-We need to load the extracted features and labels to get started. Modulation spectrogram features are the flattened 2D modulation spectrogram that we saw in exercise 1, and labels are binary numeric numbers (0 for negative and 1 for positive).
+We need to load the extracted features and labels to get started. Modulation spectrogram features are the flattened 2D modulation spectrogram that we saw in exercise 1, and labels are binary integers (0 for negative and 1 for positive).
 
 #### Step 2: F-ratio plots
 Before we directly input these features into a classifier, we can use the F-ratio to statistically quantify the difference between groups. The higher the F-ratio is, the more discrimination exists between two classes. Some useful info about F-ratio can be found at [https://sthalles.github.io/fisher-linear-discriminant/]. We customized the F-ratio caculation for unbalanced datasets, the script can be found at [https://github.com/zhu00121/Unbalanced_Fratio]. The F-ratio is computed iteratively for each feature, we then reshape these F-ratio values into 2D and visualize them in a topographical plot. Using this F-ratio plot, we can tell which modulation spectrogram region is more discriminative.
