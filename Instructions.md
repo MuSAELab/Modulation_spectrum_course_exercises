@@ -10,7 +10,7 @@ This exercise is set up for people who are new to modulation spectrum to get som
 ## About exercises
 To help participants better understand the use of modulation spectrogram, we designed two exercises. For simplicity and reproducibility, we include customized functions in the ```msr_func.py``` and ```msr_ml.py```. We will be using these customized functions for our exercises. For future usage, you can also modify these functions for your own tasks.
 ### Exercise 1: visualizing modulation spectrogram
-In the first exercise, we are going to compute modulation spectrogram from a single speech recording, visualize it and compare with a conventional mel-spectrogram. Two toy recordings are included in the ```data/speech``` folder. One of them is collected from an individual with COVID-19, the other is from an individual without COVID-19. The speech samples included are from an open-source COVID-19 sound database **Coswara**.
+In the first exercise, we are going to compute modulation spectrogram from a single speech recording, visualize it and compare with a conventional mel-spectrogram. Two toy recordings are included in the ```data/speech``` folder.
 
 #### Step 1: compute modulation spectrogram from each one of these recordings
 To get started, we firstly load the audio file. The modulation spectrogram can then be computed using our customized function.
